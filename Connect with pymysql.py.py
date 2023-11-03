@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 top = Tk()
 top.geometry('1000x600')
-top.config(bg='#D3D3D3')  # Set the background color to Light gray: #D3D3D3
+top.config(bg='#D3D3D3')       #..Light gray: #D3D3D3
 
 def ins():
     k = el.get()
@@ -24,25 +24,25 @@ def ins():
     db.commit()
 
 
-l = Label(top, text='REGISTRATION', bg='#D3D3D3', fg='black', font=('Arial 20 bold'))  # Set the background color to Light gray: #D3D3D3
+l = Label(top, text='REGISTRATION', bg='#D3D3D3', fg='black', font=('Arial 20 bold'))  
 l.place(x=400, y=50)
 
-l2 = Label(top, text='First', bg='#D3D3D3', fg='black', font=('Arial 15 bold'))  # Set the background color to Light gray: #D3D3D3
+l2 = Label(top, text='First', bg='#D3D3D3', fg='black', font=('Arial 15 bold')) 
 l2.place(x=300, y=150)
 
 el = Entry(top, font=('Arial 15 bold'))
 el.place(x=400, y=150)
 
-l3 = Label(top, text='Lastname', bg='#D3D3D3', fg='black', font=('Arial 15 bold'))  # Set the background color to Light gray: #D3D3D3
+l3 = Label(top, text='Lastname', bg='#D3D3D3', fg='black', font=('Arial 15 bold'))  
 l3.place(x=300, y=200)
 
-l4 = Label(top, text='Result', bg='#D3D3D3', fg='black', font=('Arial 15 bold'))  # Set the background color to Light gray: #D3D3D3
+l4 = Label(top, text='Result', bg='#D3D3D3', fg='black', font=('Arial 15 bold'))  
 l4.place(x=300, y=450)
 
 e2 = Entry(top, font=('Arial 15 bold'))
 e2.place(x=400, y=200)
 
-l5 = Label(top, text='age', bg='#D3D3D3', fg='black', font=('Arial 15 bold'))  # Set the background color to Light gray: #D3D3D3
+l5 = Label(top, text='age', bg='#D3D3D3', fg='black', font=('Arial 15 bold'))  
 l5.place(x=300, y=250)
 
 e3 = Entry(top, font=('Arial 15 bold'))
